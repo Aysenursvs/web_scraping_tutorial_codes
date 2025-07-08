@@ -16,7 +16,7 @@ job_cards = soup.find_all('div', class_='job-card')
 print(f'Total {len(job_cards)} job postings found:')
 print('=' * 50)
 
-for i, job in enumerate(job_cards, 1):
+for index, job in enumerate(job_cards, 1):
     # Job title
     title = job.find('h3', class_='job-title').get_text(strip=True)
     
@@ -37,8 +37,17 @@ for i, job in enumerate(job_cards, 1):
     
     # Job ID (from data attribute)
     job_id = job.get('data-job-id')
-    
-    print(f"{i}. {title}")
+
+    with open(f'results/job_results{index}.txt', 'w', encoding='utf-8') as results_file:
+        results_file.write(f"{index}. {title}\n")
+        results_file.write(f"   Company: {company}\n")
+        results_file.write(f"   Location: {location}\n")
+        results_file.write(f"   Salary: {salary}\n")
+        results_file.write(f"   Description: {description}\n")
+        results_file.write(f"   Post Date: {post_date}\n")
+        results_file.write(f"   Job ID: {job_id}\n")
+        results_file.write("\n")
+    print(f"{index}. {title}")
     print(f"   Company: {company}")
     print(f"   Location: {location}")
     print(f"   Salary: {salary}")

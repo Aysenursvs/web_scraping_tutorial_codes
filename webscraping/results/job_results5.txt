@@ -1,0 +1,8 @@
+5. Full Stack Python Developer
+   Company: WebDev Pro
+   Location: Bursa, Türkiye
+   Salary: 20.000 - 28.000 TL
+   Description: Django + React.js ile full stack geliştirme yapacak deneyimli geliştirici.
+   Post Date: 4 gün önce
+   Job ID: 5
+

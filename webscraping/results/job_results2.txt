@@ -1,0 +1,8 @@
+2. Senior Python Engineer
+   Company: DataTech Ltd.
+   Location: Ankara, Türkiye
+   Salary: 25.000 - 35.000 TL
+   Description: Veri analizi ve machine learning projeleri için Python uzmanı aranıyor.
+   Post Date: 3 gün önce
+   Job ID: 2
+

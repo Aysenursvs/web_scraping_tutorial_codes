@@ -1,0 +1,8 @@
+4. Data Scientist
+   Company: AI Solutions Inc.
+   Location: İstanbul, Türkiye
+   Salary: 22.000 - 30.000 TL
+   Description: Python, Pandas, NumPy, Scikit-learn ile veri bilimi projeleri.
+   Post Date: 2 gün önce
+   Job ID: 4
+

@@ -1,0 +1,8 @@
+1. Python Developer
+   Company: TechCorp A.Ş.
+   Location: İstanbul, Türkiye
+   Salary: 15.000 - 20.000 TL
+   Description: Django ve Flask framework'leri ile web geliştirme deneyimi aranan pozisyon.
+   Post Date: 5 gün önce
+   Job ID: 1
+

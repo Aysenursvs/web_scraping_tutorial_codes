@@ -1,0 +1,8 @@
+3. Python Backend Developer
+   Company: StartupXYZ
+   Location: İzmir, Türkiye
+   Salary: 18.000 - 25.000 TL
+   Description: FastAPI ve Django REST Framework deneyimi olan backend geliştiricisi.
+   Post Date: 1 gün önce
+   Job ID: 3
+
