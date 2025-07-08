@@ -1,7 +1,11 @@
 from bs4 import BeautifulSoup
 import requests
 
-response = requests.get('http://localhost').text
+headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+}
+
+response = requests.get('http://localhost', headers=headers).text
 
 soup = BeautifulSoup(response, 'lxml')
 print(soup.prettify())
